@@ -11,7 +11,7 @@ int main(){
         preco = (p / g) * 1000.0;
 
         if(i == 0 || preco < menor){
-            menor = preco;
+            menor = preco; //achar o menor valor da variavel, tmb servindo para maiores ou igualdade
         }
     }
 
